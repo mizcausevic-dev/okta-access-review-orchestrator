@@ -1,0 +1,49 @@
+{
+  "value": [
+    {
+      "id": "instance-2026-05-01-clean",
+      "reviewName": "Standard app access Q2 review",
+      "startDateTime": "2026-05-01T00:00:00Z",
+      "endDateTime": "2026-05-15T00:00:00Z",
+      "status": "Completed",
+      "decisions": [
+        {
+          "id": "dec-c1",
+          "principal": {
+            "id": "u-dave",
+            "displayName": "Dave Engineer",
+            "userPrincipalName": "dave@example.com",
+            "type": "user"
+          },
+          "resource": {
+            "id": "app-finance-bi",
+            "displayName": "Finance BI",
+            "type": "app"
+          },
+          "decision": "approve",
+          "reviewedBy": { "id": "u-elena", "displayName": "Elena Director" },
+          "reviewedDateTime": "2026-05-09T10:00:00Z",
+          "appliedDateTime": "2026-05-09T14:00:00Z"
+        },
+        {
+          "id": "dec-c2",
+          "principal": {
+            "id": "u-frank",
+            "displayName": "Frank Sales",
+            "userPrincipalName": "frank@example.com",
+            "type": "user"
+          },
+          "resource": {
+            "id": "app-marketing-portal",
+            "displayName": "Marketing Portal",
+            "type": "app"
+          },
+          "decision": "deny",
+          "reviewedBy": { "id": "u-elena", "displayName": "Elena Director" },
+          "reviewedDateTime": "2026-05-09T10:00:00Z",
+          "appliedDateTime": "2026-05-09T14:00:00Z"
+        }
+      ]
+    }
+  ]
+}

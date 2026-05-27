@@ -1,0 +1,81 @@
+{
+  "value": [
+    {
+      "id": "instance-2026-05-01",
+      "reviewName": "Okta admin roles Q2 closeout",
+      "startDateTime": "2026-05-01T00:00:00Z",
+      "endDateTime": "2026-05-15T00:00:00Z",
+      "status": "InProgress",
+      "decisions": [
+        {
+          "id": "dec-1",
+          "principal": {
+            "id": "u-alice",
+            "displayName": "Alice Admin",
+            "userPrincipalName": "alice@example.com",
+            "type": "user"
+          },
+          "resource": {
+            "id": "role-ga",
+            "displayName": "Super Administrator",
+            "type": "role",
+            "roleTemplateId": "okta-super-admin"
+          },
+          "decision": "notReviewed"
+        },
+        {
+          "id": "dec-2",
+          "principal": {
+            "id": "u-bob",
+            "displayName": "Bob Manager",
+            "userPrincipalName": "bob@example.com",
+            "type": "user"
+          },
+          "resource": {
+            "id": "role-secadmin",
+            "displayName": "Security Administrator",
+            "type": "role",
+            "roleTemplateId": "okta-security-admin"
+          },
+          "decision": "approve",
+          "reviewedDateTime": "2026-05-10T12:00:00Z"
+        },
+        {
+          "id": "dec-3",
+          "principal": {
+            "id": "u-carol",
+            "displayName": "Carol Helpdesk",
+            "userPrincipalName": "carol@example.com",
+            "type": "user"
+          },
+          "resource": {
+            "id": "role-helpdesk",
+            "displayName": "Help Desk Administrator",
+            "type": "role",
+            "roleTemplateId": "okta-helpdesk-admin"
+          },
+          "decision": "approve",
+          "reviewedBy": { "id": "u-carol", "displayName": "Carol Helpdesk" },
+          "reviewedDateTime": "2026-05-09T09:00:00Z"
+        },
+        {
+          "id": "dec-4",
+          "principal": {
+            "id": "u-dave",
+            "displayName": "Dave Engineer",
+            "userPrincipalName": "dave@example.com",
+            "type": "user"
+          },
+          "resource": {
+            "id": "group-finance",
+            "displayName": "Finance BI",
+            "type": "app"
+          },
+          "decision": "approve",
+          "reviewedBy": { "id": "u-elena", "displayName": "Elena Director" },
+          "reviewedDateTime": "2026-03-20T10:00:00Z"
+        }
+      ]
+    }
+  ]
+}
