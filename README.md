@@ -87,3 +87,7 @@ npm run dev
 - [Origin](./docs/ORIGIN.md)
 - [Kinetic Gain Embedded tie-back](./docs/KINETIC_GAIN_EMBEDDED.md)
 - [Changelog](./CHANGELOG.md)
+
+## Part of the Kinetic Gain Suite
+
+Operator surface in the [Kinetic Gain Suite](https://suite.kineticgain.com/) — a portfolio of buyer-readable control planes spanning security posture, compliance evidence, data-platform governance, FinOps, and operator workflows. See the suite index for related surfaces. Apex: [kineticgain.com](https://kineticgain.com/).
